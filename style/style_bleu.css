@@ -14,6 +14,8 @@ title {
 /* Style pour chaque bloc individuel (Lien + Image + Description facultative) */
 .carte-item {
     width: 250px;           /* Largeur fixe pour que toutes les cartes aient la même taille */
+	display: flex;
+    flex-direction: column;
 }
 
 /* Enlever le soulignement de tous les liens à l'intérieur de nos blocs */
@@ -28,7 +30,6 @@ title {
     width: 100%;           /* L'image prend toute la largeur du bloc (250px) */
     height: auto;          /* Conserve les proportions de l'image */
     border-radius: 4px;    /* Optionnel : arrondit légèrement les coins des images */
-	display : block;
 }
 
 /* Style pour le texte de description sous la carte des restos */
@@ -36,6 +37,17 @@ title {
     font-size: 0.9em;
     color: #555;
     margin-top: 8px;
+}
+
+.description {
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.carte-item ul {
+    margin: 0;
+    padding-left: 20px;
 }
 
 h1 {
