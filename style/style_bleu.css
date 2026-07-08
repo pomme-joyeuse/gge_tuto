@@ -5,16 +5,14 @@ title {
 /* Alignement horizontal de toutes les cartes */
 .container-images {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;    /* Permet de revenir à la ligne proprement si l'écran est trop petit (ex: sur téléphone) */
-    gap: 25px;          /* Espace entre chaque bloc de carte */
-    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start; /* ou center */
+    align-items: flex-start;
 }
 
 /* Style pour chaque bloc individuel (Lien + Image + Description facultative) */
 .carte-item {
-    display: flex;
-    flex-direction: column; /* Aligne le texte au-dessus de son image */
     width: 250px;           /* Largeur fixe pour que toutes les cartes aient la même taille */
 }
 
@@ -30,6 +28,7 @@ title {
     width: 100%;           /* L'image prend toute la largeur du bloc (250px) */
     height: auto;          /* Conserve les proportions de l'image */
     border-radius: 4px;    /* Optionnel : arrondit légèrement les coins des images */
+	display : block;
 }
 
 /* Style pour le texte de description sous la carte des restos */
