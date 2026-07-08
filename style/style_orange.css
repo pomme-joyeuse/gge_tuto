@@ -1,0 +1,77 @@
+title {
+	color: #0944A0;
+}
+
+/* Aligne les éléments enfants (les liens et images) sur une même ligne */
+.container-images {
+    display: flex;
+    flex-direction: row; /* Aligne horizontalement */
+    gap: 20px;          /* Crée un espace de 20px entre chaque image */
+    margin-bottom: 20px; /* Ajoute un espace avant le titre "Metal" */
+}
+
+/* Optionnel : Ajuste la taille des images si elles sont trop grandes */
+.container-images img {
+    width: 50px;       /* Ajustez la taille selon vos besoins */
+    height: auto;
+}
+
+h1 {
+	margin-left: 7px;
+	color: #13417C;
+	font-size: 30px;
+	font-family: "Arial";
+	font-style: "bold";
+}
+
+h2, h3 {
+	margin-left: 5px;
+	color: #0944A0;
+	font-size: 20;
+	font-family: "Arial";
+	font-style: "bold";
+}
+
+li, a, ol, ul, p {
+	margin-left: 5px;
+	color: black;
+	font-style: 12;
+	font-family: "Arial";
+}
+
+footer {
+	text-align: center;
+	font-family: "Arial";
+	color: black;
+	font-size: 12;
+	font-style: "bold";
+	padding: 20px;
+  	background: mediumaquamarine;
+  	margin-top: 20px;
+}
+
+body {
+	background-color: #D6870D;
+}
+
+img {
+	display: inline-flex;
+	border-width: 5px;
+	border-color: #E67B09;
+	border: 5px #E67B09 solid;
+	border-radius: 15px;
+}
+
+.truc {
+	grid-template-columns: 250px 250px 250px ;
+   	grid-template-rows: 500px;
+}
+
+.t {
+	display: inline-grid;
+	margin: 25px;
+}
+.topnav
+{
+	background-color: #f1bb6d;
+}

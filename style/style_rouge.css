@@ -1,0 +1,60 @@
+title {
+	color: #811A1E ;
+}
+
+h1 {
+	margin-left: 20px;
+	color: #811A1E;
+	font-size: 30;
+	font-family: "Arial";
+	font-style: "bold";
+}
+
+h2, h3 {
+	margin-left: 10px;
+	color: #8B0000;
+	font-size: 20;
+	font-family: "Arial";
+	font-style: "bold";
+}
+
+li, a, ol, ul, p {
+	margin-left: 10px;
+	color: black;
+	font-style: 12;
+	font-family: "Arial";
+}
+
+footer {
+	text-align: center;
+	font-family: "Arial";
+	color: black;
+	font-size: 16;
+	font-style: "bold";
+}
+
+body {
+	background-color: #EE0000;
+}
+
+img {
+	display: inline-flex;
+	border: 5px #FE2630 solid;
+	border-radius: 15px;
+}
+.topnav
+{
+	background-color: #d86060;
+}
+.mednav
+{
+	background-color: #ff8181;
+}
+.bottomnav
+{
+	background-color: #d45454;
+}
+.footer
+{
+	background-color: #b60000;
+}

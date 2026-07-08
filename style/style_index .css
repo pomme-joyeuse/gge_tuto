@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightcyan;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Structure globale en colonnes */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.leftcolumn {
+    flex: 65%; /* Prend 65% de la largeur */
+    padding-right: 20px;
+}
+
+.rightcolumn {
+    flex: 35%; /* Prend 35% de la largeur */
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Images */
+.e {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.oz {
+    border-radius: 25px;
+    border: 5px solid #2172d8;
+    max-width: 100%;
+    height: auto;
+}
+
+.legend {
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#grad1 {
+    height: 80px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    background-image: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet);
+}
+
+/* Barre de navigation principale (Flexbox) */
+.topnav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #06069E;
+    align-items: center;
+}
+
+/* Liens principaux et bouton du menu */
+.topnav a, .dropbtn {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 0.5px solid #222;
+}
+
+/* Effet de survol global */
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #C71212;
+    color: midnightblue;
+}
+
+/* Gestion du menu déroulant */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #A6432E;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+
+.dropdown-content a {
+    color: black !important;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+    border: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #049421;
+    color: midnightblue;
+}
+
+/* Affichage du menu au survol */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: mediumaquamarine;
+    margin-top: 20px;
+}
+
+/* Typographies */
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-family: "Arial", sans-serif;
+}
+h2, h3, h4 {
+    font-family: "Arial", sans-serif;
+}
+
+/* Adaptabilité Mobile */
+@media screen and (max-width: 1000px) {
+    .topnav {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .dropdown {
+        display: block;
+    }
+    .dropdown-content {
+        position: relative;
+        box-shadow: none;
+    }
+    .leftcolumn, .rightcolumn {
+        flex: 100%;
+        padding-right: 0;
+    }
+}
