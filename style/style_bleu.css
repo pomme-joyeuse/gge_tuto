@@ -8,7 +8,9 @@ title {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: flex-start; /* ou center */
-    align-items: flex-start;
+    flex-direction: column; /* Aligne l'image et le texte verticalement */
+    align-items: center;    /* Centre horizontalement l'image et le texte */
+    text-align: center;     /* Sécurité pour le texte */
 }
 
 /* Style pour chaque bloc individuel (Lien + Image + Description facultative) */
