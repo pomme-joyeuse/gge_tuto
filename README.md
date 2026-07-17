@@ -1,6 +1,6 @@
-# gge_tuto 🛡️
-Tuto GGE et plus
-le discord est bien mais niveau maintenance et visibilité c'est la galère
+# GGE_tuto 👑
+Tuto GGE et plus - 
+le discord est bien mais niveau maintenance et visibilité c'est la galère.
 Le html - CSS c'est pas la panacée non plus
 
 ````markdown
