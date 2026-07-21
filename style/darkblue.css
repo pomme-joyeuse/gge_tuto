@@ -37,7 +37,7 @@ title {
 /* Style pour le texte de description sous la carte des restos */
 .carte-item .description {
     font-size: 0.9em;
-    color: #616B1A
+    color: #555;
     margin-top: 8px;
 }
 
@@ -62,7 +62,7 @@ h1 {
 
 h2, h3 {
 	margin-left: 10px;
-	color: #505711 ;
+	color: #1113A1 ;
 	font-size: 20;
 	font-family: "Arial";
 	font-style: "bold";
@@ -84,18 +84,32 @@ footer {
 }
 
 body {
-	background-color: #B0AE3E;
+	background-color: #7A5FF5;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #998D00;
+  background-color: #160066;
   font-weight: bold;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #160066;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 0.5px solid black;
 }
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #ADA100;
+  background-color: #14004F;
   color:midnightblue;
   font-weight: bold;
 }
@@ -108,7 +122,7 @@ body {
 
 img {
 	display: inline-flex;
-	border: 5px #9E560D solid;
+	border: 5px #4503FF solid;
 	border-radius: 15px;
 }
 .image{

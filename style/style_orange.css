@@ -51,17 +51,27 @@ footer {
 }
 
 body {
-	background-color: #D6870D;
+	background-color: #E69557;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #A64C00;
+  color:midnightblue;
+  font-weight: bold;
+}
+@media screen and (max-width: 1000px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
 }
 
 img {
 	display: inline-flex;
-	border-width: 5px;
-	border-color: #E67B09;
-	border: 5px #E67B09 solid;
+	border: 5px #9E560D solid;
 	border-radius: 15px;
 }
-
 .truc {
 	grid-template-columns: 250px 250px 250px ;
    	grid-template-rows: 500px;

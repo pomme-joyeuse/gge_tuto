@@ -34,17 +34,44 @@ footer {
 }
 
 body {
-	background-color: #EE0000;
+	background-color: #CF5959;
+}
+
+./* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #EB0000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 0.5px solid black;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #D60000;
+  color:midnightblue;
+  font-weight: bold;
+}
+@media screen and (max-width: 1000px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
 }
 
 img {
 	display: inline-flex;
-	border: 5px #FE2630 solid;
+	border: 5px #570B0B solid;
 	border-radius: 15px;
 }
-.topnav
-{
-	background-color: #d86060;
+.image{
+	max-width : 60%;
+	max-height: 30%;
 }
 .mednav
 {
