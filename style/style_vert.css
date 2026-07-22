@@ -60,10 +60,18 @@ h1 {
 	font-style: "bold";
 }
 
-h2, h3 {
+h2 {
 	margin-left: 10px;
-	color: #007015 ;
+	color: #0A590A ;
 	font-size: 20;
+	font-family: "Arial";
+	font-style: "bold";
+}
+
+h3 {
+	margin-left: 10px;
+	color: #0F7A0F ;
+	font-size: 15;
 	font-family: "Arial";
 	font-style: "bold";
 }
