@@ -104,7 +104,6 @@ body {
   font-weight: bold;
   transition-duration: 0.4s;
   cursor: pointer;
-  border: 0.5px solid black;
 }
 
 /* Change color on hover */
