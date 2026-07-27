@@ -75,6 +75,8 @@ body {
 	background-color: #E69557;
 }
 
+-----topnav-------
+
 .topnav {
   overflow: hidden;
   background-color: #004F0F;
@@ -106,6 +108,8 @@ body {
     width: 100%;
   }
 }
+
+-----topnav-------
 
 img {
 	display: inline-flex;
