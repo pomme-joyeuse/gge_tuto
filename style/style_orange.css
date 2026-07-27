@@ -102,12 +102,6 @@ body {
   color: #004F0F;
   font-weight: bold;
 }
-@media screen and (max-width: 1000px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
 
 -----topnav-------
 
