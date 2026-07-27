@@ -18,16 +18,24 @@ title {
 
 h1 {
 	margin-left: 7px;
-	color: #13417C;
+	color: #8F3600;
 	font-size: 30px;
 	font-family: "Arial";
 	font-style: "bold";
 }
 
-h2, h3 {
+h2 {
 	margin-left: 5px;
-	color: #0944A0;
+	color: #A33E12;
 	font-size: 20;
+	font-family: "Arial";
+	font-style: "bold";
+}
+
+h3 {
+	margin-left: 5px;
+	color: #A13608;
+	font-size: 14;
 	font-family: "Arial";
 	font-style: "bold";
 }
