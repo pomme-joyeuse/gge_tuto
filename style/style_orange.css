@@ -75,9 +75,28 @@ body {
 	background-color: #E69557;
 }
 
+.topnav {
+  overflow: hidden;
+  background-color: darkblue;
+  font-weight: bold;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #A64C00;
+  background-color: #ddd;
   color:midnightblue;
   font-weight: bold;
 }
