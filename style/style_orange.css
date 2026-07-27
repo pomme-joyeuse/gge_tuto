@@ -39,6 +39,19 @@ li, a, ol, ul, p {
 	font-family: "Arial";
 }
 
+/* Alignement côte à côte des blocs Titre + Image */
+.grille-titres-images {
+    display: flex;
+    flex-wrap: wrap; /* Permet de passer à la ligne sur petit écran (mobile) */
+    gap: 30px;      /* Espace entre les deux colonnes */
+    margin-bottom: 20px;
+}
+
+.bloc-titre-image {
+    flex: 1;         /* Les deux colonnes prennent une largeur égale */
+    min-width: 250px; /* Sur mobile, passe l'un en dessous de l'autre si < 250px */
+}
+
 footer {
 	text-align: center;
 	font-family: "Arial";
