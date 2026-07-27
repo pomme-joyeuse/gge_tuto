@@ -85,7 +85,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #00C900;
+  color: #63330A;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -96,8 +96,8 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #084A12;
-  color:midnightblue;
+  background-color: #63330A;
+  color: #004F0F;
   font-weight: bold;
 }
 @media screen and (max-width: 1000px) {
