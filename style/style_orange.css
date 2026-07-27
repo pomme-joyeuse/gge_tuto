@@ -6,8 +6,8 @@ title {
 .container-images {
     display: flex;
     flex-direction: row; /* Aligne horizontalement */
-    gap: 20px;          /* Crée un espace de 20px entre chaque image */
-    margin-bottom: 20px; /* Ajoute un espace avant le titre "Metal" */
+    gap: 10px;          /* Crée un espace de 20px entre chaque image */
+    margin-bottom: 10px; /* Ajoute un espace avant le titre "Metal" */
 }
 
 /* Optionnel : Ajuste la taille des images si elles sont trop grandes */
