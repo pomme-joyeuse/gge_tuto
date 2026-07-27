@@ -91,7 +91,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #004F0F;
+  background-color: #594E11;
   font-weight: bold;
 }
 
@@ -99,7 +99,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #63330A;
+  color: #A69C38;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -110,8 +110,8 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #63330A;
-  color: #004F0F;
+  background-color: #A2A800;
+  color: #594E11;
   font-weight: bold;
 }
 @media screen and (max-width: 1000px) {
