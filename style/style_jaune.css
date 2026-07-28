@@ -60,10 +60,18 @@ h1 {
 	font-style: "bold";
 }
 
-h2, h3 {
+h2 {
 	margin-left: 10px;
 	color: #505711 ;
 	font-size: 20;
+	font-family: "Arial";
+	font-style: "bold";
+}
+
+h2 {
+	margin-left: 10px;
+	color: #505711 ;
+	font-size: 14;
 	font-family: "Arial";
 	font-style: "bold";
 }
@@ -125,32 +133,4 @@ img {
 .image{
 	max-width : 60%;
 	max-height: 30%;
-}
-.pizza {
-	padding-top: 250px;
-	padding-left: 50px;
-	color: navy;
-	font-style: "bold";
-	font-family: "Arial";
-	font-size: 14px;
-}
-
-.pizz {
-	padding-left: 40px;
-	display: grid;
-	grid-template-columns: 350px 350px 350px;
-	grid-template-rows: 0px;
-  	gap: 15px;
-}
-
-img:hover {
-	display: flex;
-}
-
-.piza {
-	padding-left: 50px;
-	color: navy;
-	font-style: "bold";
-	font-family: "Arial";
-	font-size: 14px;
 }
