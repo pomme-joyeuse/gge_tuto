@@ -37,7 +37,7 @@ body {
 	background-color: #CF5959;
 }
 
------topnav-------
+/* -----------topnav---------- */
 
 .topnav {
   overflow: hidden;
@@ -65,7 +65,7 @@ body {
   font-weight: bold;
 }
 
------topnav-------
+/* -----------topnav---------- */
 
 img {
 	display: inline-flex;
