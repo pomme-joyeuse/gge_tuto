@@ -103,9 +103,8 @@ img {
 .image{
 	max-width : 60%;
 	max-height: 30%;
-}
 
------topnav-------
+/* -----------topnav---------- */
 
 .topnav {
   overflow: hidden;
@@ -133,4 +132,4 @@ img {
   font-weight: bold;
 }
 
------topnav-------
+/* -----------topnav---------- */
