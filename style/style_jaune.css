@@ -95,6 +95,16 @@ body {
 	background-color: #B0AE3E;
 }
 
+img {
+	display: inline-flex;
+	border: 5px #9E560D solid;
+	border-radius: 15px;
+}
+.image{
+	max-width : 60%;
+	max-height: 30%;
+}
+
 -----topnav-------
 
 .topnav {
@@ -124,13 +134,3 @@ body {
 }
 
 -----topnav-------
-
-img {
-	display: inline-flex;
-	border: 5px #9E560D solid;
-	border-radius: 15px;
-}
-.image{
-	max-width : 60%;
-	max-height: 30%;
-}
