@@ -78,7 +78,8 @@ li, a, ol, ul, p {
 footer {
 	text-align: center;
 	font-family: "Arial";
-	color: black;
+	color: #947F00;
+	background: #C28119;
 	font-size: 12;
 	font-style: "bold";
 }
