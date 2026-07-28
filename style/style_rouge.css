@@ -10,10 +10,18 @@ h1 {
 	font-style: "bold";
 }
 
-h2, h3 {
+h2 {
 	margin-left: 10px;
 	color: #8B0000;
 	font-size: 20;
+	font-family: "Arial";
+	font-style: "bold";
+}
+
+h3 {
+	margin-left: 10px;
+	color: #8B0000;
+	font-size: 16;
 	font-family: "Arial";
 	font-style: "bold";
 }
@@ -28,7 +36,8 @@ li, a, ol, ul, p {
 footer {
 	text-align: center;
 	font-family: "Arial";
-	color: black;
+	color: #690031;
+	background: #BA1329;
 	font-size: 16;
 	font-style: "bold";
 }
@@ -49,7 +58,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #F50000;
+  color: #BA0000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
