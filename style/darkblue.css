@@ -60,7 +60,15 @@ h1 {
 	font-style: "bold";
 }
 
-h2, h3 {
+h2 {
+	margin-left: 10px;
+	color: #1113A1 ;
+	font-size: 20;
+	font-family: "Arial";
+	font-style: "bold";
+}
+
+h3 {
 	margin-left: 10px;
 	color: #1113A1 ;
 	font-size: 20;
@@ -88,7 +96,7 @@ body {
 	background-color: #6257FF;
 }
 
----topnav-----
+/*---topnav-----*/
 
 .topnav {
   overflow: hidden;
@@ -116,7 +124,7 @@ body {
   font-weight: bold;
 }
 
----topnav-----
+/*---topnav-----*/
 
 img {
 	display: inline-flex;
