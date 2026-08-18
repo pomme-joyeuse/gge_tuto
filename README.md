@@ -11,6 +11,21 @@ Le html - CSS c'est pas la panacée non plus
 ├── Lacis.html              # tuto Lacis
 ├──
 ├──
+├── culte.html
+├── defense.html
+├── desert.html
+├── equipements.html
+├── etrangers.html
+├── generaux.html
+├── glacier.html
+├── iles.html
+├── indexa.html
+├── nomades.html
+├── objet.html
+├── pics.html
+├── pieces.html
+├── pillage.html
+├── prod.html
 ├── raffinerie_outilleur.html
 ├── ressources_royaume.html
 ├── ruru.html
