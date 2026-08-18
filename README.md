@@ -10,6 +10,13 @@ Le html - CSS c'est pas la panacée non plus
 ├── style ✍️                # dossier styles CSS
 ├── Lacis.html              # tuto Lacis
 ├── coming_soon.html
+├──
+├──
+├──
+├──
+├──
+├──
+├── berimond.html
 ├── cote_tranchante.html
 ├── culte.html
 ├── defense.html
