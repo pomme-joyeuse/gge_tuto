@@ -9,13 +9,14 @@ Le html - CSS c'est pas la panacée non plus
 ├── images 🖼️               # dossier images
 ├── style ✍️                # dossier styles CSS
 ├── Lacis.html              # tuto Lacis
+├── Forteresses.html
 ├── coming_soon.html
-├──
-├──
-├──
-├──
-├──
-├──
+├── LaFaille.html
+├── README.md
+├── RE.html
+├── apres_attaque.png
+├── barbare.html
+├── batiments.html
 ├── berimond.html
 ├── cote_tranchante.html
 ├── culte.html
