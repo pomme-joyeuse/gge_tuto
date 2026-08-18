@@ -9,8 +9,8 @@ Le html - CSS c'est pas la panacée non plus
 ├── images 🖼️               # dossier images
 ├── style ✍️                # dossier styles CSS
 ├── Lacis.html              # tuto Lacis
-├──
-├──
+├── coming_soon.html
+├── cote_tranchante.html
 ├── culte.html
 ├── defense.html
 ├── desert.html
